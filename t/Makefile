@@ -174,3 +174,8 @@ tests-preload.so:	tests-preload.c
 
 codec.c:	dtmf_rx_fillin.h
 t38.c:		spandsp_logging.h
+test-dtmf-detect.c:	spandsp_logging.h
+spandsp_send_fax_pcm.c:	spandsp_logging.h
+spandsp_send_fax_t38.c:	spandsp_logging.h
+spandsp_recv_fax_t38.c:	spandsp_logging.h
+spandsp_recv_fax_pcm.c:	spandsp_logging.h
